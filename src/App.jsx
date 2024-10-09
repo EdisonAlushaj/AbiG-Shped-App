@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="app-wrapper">
-        <BrowserRouter basename='/app/home/'>
+        <BrowserRouter basename='/abig-app/app/home/'>
           <Suspense fallback={<div>Loading...</div>}>
             <AppRoutes />
           </Suspense>
